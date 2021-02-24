@@ -1,0 +1,14 @@
+---
+corp_ad_groups:
+  hr:
+    group1
+    group2
+    group3
+  finance:
+    group4
+    group5
+    group6
+  it:
+    group7
+    group8
+    group9

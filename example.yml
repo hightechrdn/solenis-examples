@@ -1,0 +1,11 @@
+---
+- name: example play
+  hosts: localhost
+  vars_files:
+    - vars/users.yml
+  tasks:
+    - name: debug variables
+      debug:
+        msg: "New user {{ item.fullname }} is in the following AD groups: {{ corp_ad_groups[item.organization] }}" 
+      loop: "{{ new_users }}"
+

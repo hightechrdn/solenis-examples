@@ -1,0 +1,11 @@
+---
+new_users:
+  - name: Bob Smith
+    fullname: Bob Smith
+    organization: it
+  - name: Mark White
+    fullname: Mark White
+    organization: hr
+  - name: Jane Doe
+    fullname: Jane Doe
+    organization: finance
